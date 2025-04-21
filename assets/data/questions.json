@@ -3,5 +3,20 @@
         "question": "Who is best guy in portal",
         "options": ["Alan", "Bilal", "Eddy", "Mo"],
         "correctAnswer": "c"
-    }
+    },
+    {
+        "question": "Who is best guy in portal",
+        "options": ["Alan", "Bilal", "Eddy", "Mo"],
+        "correctAnswer": "a"
+    },
+        {
+        "question": "Who is strongest",
+        "options": ["Alan", "Bilal", "Eddy", "Mo"],
+        "correctAnswer": "d"
+    },
+        {
+        "question": "Who got best humor",
+        "options": ["Alan", "Bilal", "Eddy", "Mo"],
+        "correctAnswer": "a"
+    },
 ]
