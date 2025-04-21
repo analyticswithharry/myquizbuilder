@@ -1,0 +1,93 @@
+/* Results Page Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Results Container */
+.results-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+h1 i {
+    margin-right: 10px;
+}
+
+/* Score Statistics */
+#score-stats {
+    margin-bottom: 25px;
+}
+
+#score-stats p {
+    font-size: 18px;
+    margin: 15px 0;
+    font-weight: 500;
+    color: #e0e0e0;
+}
+
+#score-stats span {
+    font-weight: 700;
+    color: #fff;
+}
+
+#score-stats i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Retake Button */
+#retake-btn {
+    margin-top: 25px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#retake-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#retake-btn i {
+    margin-right: 8px;
+}
