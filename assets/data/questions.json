@@ -181,12 +181,12 @@
     },
     {
         "question": "If Tom and Jayne sell the modern art sculpture and Tom realises no other gains or losses in 2024/25, what is the highest sale price (ignoring costs) that can be achieved before Tom will have to pay a capital gain charge?",
-        "options": [],
+        "options": ["10,000", "20,000", "50,000", "90,000],
         "correctAnswer": "90,000"
     },
     {
         "question": "If Jayne and Tom sell their holiday property, what would be the capital gains tax payable by Jayne in 2024/25 if she makes no other disposals this tax year?",
-        "options": [],
+        "options": ["12,300", "15,000", "16,000", "18,840"],
         "correctAnswer": "18,840"
     },
     {
@@ -196,7 +196,7 @@
     },
     {
         "question": "How much will be Jayne’s total income tax liability for 2024/25?",
-        "options": [],
+        "options": ["44,703"],
         "correctAnswer": "44,703"
     },
     {
