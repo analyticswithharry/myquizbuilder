@@ -182,12 +182,12 @@
     {
         "question": "If Tom and Jayne sell the modern art sculpture and Tom realises no other gains or losses in 2024/25, what is the highest sale price (ignoring costs) that can be achieved before Tom will have to pay a capital gain charge?",
         "options": ["10,000", "20,000", "50,000", "90,000],
-        "correctAnswer": "90,000"
+        "correctAnswer": "d"
     },
     {
         "question": "If Jayne and Tom sell their holiday property, what would be the capital gains tax payable by Jayne in 2024/25 if she makes no other disposals this tax year?",
         "options": ["12,300", "15,000", "16,000", "18,840"],
-        "correctAnswer": "18,840"
+        "correctAnswer": "d"
     },
     {
         "question": "In 2024/25 Tom’s Oplon plc shares paid out a total gross dividend of £560. How much tax must Tom pay on his dividend income?",
@@ -196,8 +196,8 @@
     },
     {
         "question": "How much will be Jayne’s total income tax liability for 2024/25?",
-        "options": ["44,703"],
-        "correctAnswer": "44,703"
+        "options": ["44,703","52,456","32,098", "12,456"],
+        "correctAnswer": "a"
     },
     {
         "question": "Jayne is thinking of investing some of her savings in an enterprise investment scheme (EIS) what would be the maximum income tax relief she can receive due to the EIS investment?",
