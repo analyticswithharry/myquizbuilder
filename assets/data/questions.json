@@ -280,11 +280,6 @@
         "correctAnswer": "c"
     },
     {
-        "question": "Martha wishes to buy 2000 shares in a UK listed company. The current bid-ask quotes for the company’s shares are 315.50p-315.60p. The commission per trade is £6 and the stamp duty reserve tax of 0.5% applies. If Martha decides to sell the shares immediately after purchase, the round trip transaction costs will be:",
-        "options": [],
-        "correctAnswer": "45.56"
-    },
-    {
         "question": "Which of these least accurately represents a benefit for an investor in a venture capital trust (VCT)?",
         "options": [
             "Tax free dividends over any holding period",
@@ -465,11 +460,6 @@
         "correctAnswer": "d"
     },
     {
-        "question": "What is the maximum pay-out for a claim in relation to protected investment business made against an insolvent investment firm, that failed after April 2019, to the Financial Services Compensation Scheme (FSCS)?",
-        "options": [],
-        "correctAnswer": "85,000"
-    },
-    {
         "question": "Which form of trust is most commonly used for a beneficiary who is a child?",
         "options": ["Bare trust", "Interest in possession trust", "Charitable trust", "Discretionary trust"],
         "correctAnswer": "a"
@@ -500,11 +490,6 @@
         "correctAnswer": "b"
     },
     {
-        "question": "What percentage stake would a predator company require in a target company for them to be able to force minority shareholders to sell their stake?",
-        "options": [],
-        "correctAnswer": "90"
-    },
-    {
         "question": "The role played by the financial services industry in reducing the cost of capital for businesses and consumers is best described as facilitating the:",
         "options": [
             "Pooling of capital and the management of risk.",
@@ -513,11 +498,6 @@
             "Separation of capital risk from capital returns."
         ],
         "correctAnswer": "a"
-    },
-    {
-        "question": "Janet is employed by an insurance company and since starting employment has regularly paid her National Insurance Contributions. What is the minimum number of years that she needs to pay her NICs in order to qualify for the maximum new state pension introduced from 6 April 2016?",
-        "options": [],
-        "correctAnswer": "35"
     },
     {
         "question": "Which of these questions would be most likely to be answered with a soft fact?",
@@ -573,11 +553,6 @@
             "Accumulated interest in the fund"
         ],
         "correctAnswer": "c"
-    },
-    {
-        "question": "Jack and Wendy had been married for thirty years when Jack died leaving a gift of £75,000 to his children. At the time of Jack’s death the nil rate band was £300,000. If Wendy subsequently dies in 2025 when the nil rate band is £325,000, what is the total nil rate band available on her estate (ignore the residence nil rate band)?",
-        "options": [],
-        "correctAnswer": "568,750"
     },
     {
         "question": "Which body publishes and operates the UK Stewardship Code?",
@@ -653,11 +628,6 @@
         "question": "A higher-rate taxpayer receives a dividend payment of £13,859 in the 2024/25 tax year. To the nearest pound, how much tax is the investor liable for on this dividend income stream?",
         "options": ["£0", "£1,169", "£4,509", "£5,257"],
         "correctAnswer": "c"
-    },
-    {
-        "question": "An individual found guilty of insider dealing in a crown court may face a maximum prison term of how many years?",
-        "options": [],
-        "correctAnswer": "10"
     },
     {
         "question": "Which of the following is most correct when comparing the investment horizon and liquidity needs of general insurance companies with those of life assurance companies?",
