@@ -9,7 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
   color: #333;
-  overflow-y: auto; /* Allow scrolling if content overflows */
+  overflow-y: auto;
 }
 
 /* Quiz Container */
@@ -18,13 +18,13 @@ body {
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-  width: 90%; /* Increased width */
-  max-width: 800px; /* Increased max-width */
+  width: 90%;
+  max-width: 800px;
   animation: fadeIn 0.8s ease-in-out;
   border: 3px solid #6a11cb;
-  margin: 20px; /* Add margin for better spacing */
-  overflow-y: auto; /* Make container scrollable if content overflows */
-  max-height: 90vh; /* Limit height to 90% of viewport height */
+  margin: 20px;
+  overflow-y: auto;
+  max-height: 90vh;
 }
 
 @keyframes fadeIn {
@@ -135,7 +135,7 @@ header p {
 /* Questions */
 .question {
   margin-bottom: 20px;
-  position: relative; /* For positioning insights */
+  position: relative;
 }
 
 .question p {
@@ -181,22 +181,22 @@ input[type="radio"] {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-label:hover .insight {
-  display: block; /* Show insight on hover if enabled */
+.show-insights label:hover .insight {
+  display: block; /* Only show insights on hover when show-insights is enabled */
 }
 
 /* Correct Answer */
 .correct {
-  background-color: #4caf50 !important; /* Green */
+  background-color: #4caf50 !important;
   border-color: #4caf50 !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 /* Wrong Answer */
 .wrong {
-  background-color: #f44336 !important; /* Red */
+  background-color: #f44336 !important;
   border-color: #f44336 !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 /* Submit Button */
@@ -223,15 +223,6 @@ label:hover .insight {
   margin-right: 8px;
 }
 
-/* Countdown Timer */
-#countdown {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 20px;
-  color: #2575fc; /* Blue color */
-  font-weight: 600;
-}
-
 /* Skip Button */
 #skip-btn {
   display: block;
@@ -251,4 +242,13 @@ label:hover .insight {
 #skip-btn:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Error Message */
+.error-message {
+  color: #f44336;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 500;
 }
