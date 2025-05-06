@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is the most likely outcome of an increase in the liquidity risk of an asset?",
+    "options": [
+      "A lowering of transaction costs",
+      "An increase in the order size that has a price impact",
+      "Increased bid-offer spread",
+      "Increasing future price certainty"
+    ],
+    "correctAnswer": "Increased bid-offer spread"
+  },
+  {
+    "id": 2,
+    "question": "An additional rate taxpayer has already received dividends of £15,000 in the current 2024/25 tax year. He then receives a further dividend of £1,296. To the nearest pound, what is the investor's income from this further dividend after the payment of all tax due?",
+    "options": ["£1,296", "£1,199", "£802", "£786"],
+    "correctAnswer": "£786"
+  },
+  {
+    "id": 3,
+    "question": "For how long must a firm keep records of any communicated or approved financial promotion of personal pension schemes?",
+    "options": ["3 years", "5 years", "6 years", "Indefinitely"],
+    "correctAnswer": "6 years"
+  },
+  {
+    "id": 4,
+    "question": "The Stewardship Code is directed towards which group of people?",
+    "options": [
+      "Stewards",
+      "Banks",
+      "Institutional investors",
+      "FCA regulated Firms"
+    ],
+    "correctAnswer": "Institutional investors"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following investments are subject to Insider Dealing regulations? (i) Gilt-edged securities (ii) FTSE-100 Index Futures (iii) Unit trusts",
+    "options": [
+      "(i) only",
+      "(i) and (ii) only",
+      "(i) and (iii) only",
+      "(ii) and (iii) only"
+    ],
+    "correctAnswer": "(i) and (ii) only"
+  },
+  {
+    "id": 6,
+    "question": "The principal-agent problem arises when:",
+    "options": [
+      "Principals and agents are colluding",
+      "The interests of the principals and agents are aligned",
+      "The interests of the principals and agents diverge",
+      "Principals exercise control over the agents"
+    ],
+    "correctAnswer": "The interests of the principals and agents diverge"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is NOT a condition for a will to be valid?",
+    "options": [
+      "It must be signed and witnessed",
+      "It must have been made when in appropriate mental capacity",
+      "It must be in writing",
+      "It must have been made by a person over 16 years of age"
+    ],
+    "correctAnswer": "It must have been made by a person over 16 years of age"
+  },
+  {
+    "id": 8,
+    "question": "A pension fund with a high proportion of its contributing members close to retirement is likely to have a high proportion of its funds invested in?",
+    "options": ["Cash", "Property", "Fixed income", "Equities"],
+    "correctAnswer": "Fixed income"
+  },
+  {
+    "id": 9,
+    "question": "Alex is an investment adviser. She personally holds 10,000 shares of XYZ PIC. Alex thinks the company has excellent prospects with the shares undervalued and decides to recommend it to her clients. She should:",
+    "options": [
+      "Not recommend it to her clients",
+      "Make the recommendation and disclose her ownership",
+      "Get a colleague to make the recommendation",
+      "Recommend it but make no mention of her own holding"
+    ],
+    "correctAnswer": "Make the recommendation and disclose her ownership"
+  },
+  {
+    "id": 10,
+    "question": "When a financial adviser requires information on a client from a third party, what must the adviser receive from the client?",
+    "options": [
+      "A letter of agreement",
+      "A letter of acceptance",
+      "A letter of acknowledgement",
+      "A letter of authority"
+    ],
+    "correctAnswer": "A letter of authority"
+  },
+  {
+    "id": 11,
+    "question": "Which one of the following is classed as a non-mass market investment (NMMI) by the FCA?",
+    "options": [
+      "A peer-to-peer agreement",
+      "An exchange-traded fund",
+      "A speculative mini bond",
+      "A security listed on AIM"
+    ],
+    "correctAnswer": "A speculative mini bond"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following statements best describes a dark pool?",
+    "options": [
+      "An investment firm which deals on its own account by executing customer order flow in listed securities outside a regulated market",
+      "An electronic crossing network which provide liquidity that is not displayed on a conventional order book of an organised exchange",
+      "An exchange for trading non-standardised contracts such as swaps",
+      "A quote-driven market for trading stocks and bonds with market makers providing liquidity"
+    ],
+    "correctAnswer": "An electronic crossing network which provide liquidity that is not displayed on a conventional order book of an organised exchange"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is NOT a standard within the CFA Code of Ethics and Standards of Professional Conduct?",
+    "options": [
+      "Investment analysis, recommendations and actions",
+      "Integrity of capital markets",
+      "Remuneration",
+      "Conflicts of interest"
+    ],
+    "correctAnswer": "Remuneration"
+  },
+  {
+    "id": 14,
+    "question": "Ownership and control of capital is separated by the process of:",
+    "options": [
+      "Disintermediation",
+      "Securitisation",
+      "Appointment of agents",
+      "Appointment of principals"
+    ],
+    "correctAnswer": "Appointment of agents"
+  },
+  {
+    "id": 15,
+    "question": "Under which Act of Parliament is it a criminal offence for an employee of a regulated investment firm to fail to report any dealings they suspect involve money laundering?",
+    "options": [
+      "Financial Services Act 2010",
+      "Financial Services and Markets Act 2000",
+      "Criminal Justice Act 2003",
+      "Proceeds of Crime Act 2002"
+    ],
+    "correctAnswer": "Proceeds of Crime Act 2002"
+  },
+  {
+    "id": 16,
+    "question": "An FCA authorised firm has received money from a retail client that it holds before it is to be invested on behalf of the client. It holds these funds in a bank account. Which of the following conditions must apply to this account? (i) It is separate from the account(s) used to hold the firm's funds (ii) The firm should take reasonable care in selecting the bank where the account is held (iii) Other clients' money should not be held in the same account",
+    "options": [
+      "(i) only",
+      "(ii) only",
+      "(i) and (ii) only",
+      "(i) and (iii) only"
+    ],
+    "correctAnswer": "(i) and (ii) only"
+  },
+  {
+    "id": 17,
+    "question": "According to the majority of academic studies which one of the following is the most important factor in determining the returns of an investment portfolio?",
+    "options": [
+      "Market timing",
+      "Fund/stock selection",
+      "Asset allocation",
+      "Size of the portfolio"
+    ],
+    "correctAnswer": "Asset allocation"
+  },
+  {
+    "id": 18,
+    "question": "The sponsoring employer of a defined benefit pension scheme has become insolvent, and the pension scheme is unable to pay its liabilities. Assuming the pension scheme has entered the Pension Protection Fund, what level of compensation in terms of percentage of benefits does the Fund provide to those who have NOT yet retired?",
+    "options": ["80%", "85%", "90%", "95%"],
+    "correctAnswer": "90%"
+  },
+  {
+    "id": 19,
+    "question": "A business is generally obliged to keep records to enable them to complete and justify a tax return for what length of time?",
+    "options": ["3 years", "5 years", "6 years", "Indefinitely"],
+    "correctAnswer": "6 years"
+  },
+  {
+    "id": 20,
+    "question": "An adviser wishes to write materials for circulation to clients. Which of the following would be permissible according to the CFA Code of Ethics and Standards of Professional Conduct?",
+    "options": [
+      "The copying or use of charts and graphs prepared by others without stating the source",
+      "The inclusion of excerpts from articles or reports written by investment professionals with the source quoted",
+      "The inclusion of short quotes from research made by economists without referring to the names of the economists",
+      "The use of spreadsheets from external sources without the authorisation of the creator"
+    ],
+    "correctAnswer": "The inclusion of excerpts from articles or reports written by investment professionals with the source quoted"
+  },
+  {
+    "id": 21,
+    "question": "Which one of the following is NOT a characteristic of the SETS trading system on the London Stock Exchange?",
+    "options": [
+      "There is an opening auction",
+      "It is a quote display system",
+      "Stocks listed in the FTSE Small-Cap can be traded through the system",
+      "It is an electronic limit order system"
+    ],
+    "correctAnswer": "It is a quote display system"
+  },
+  {
+    "id": 22,
+    "question": "Where an FCA regulated firm produces an advertisement showing past performance of a fund that was created 8 years ago the performance information should cover at least what period of time?",
+    "options": [
+      "3 years",
+      "5 years",
+      "6 years",
+      "The life of the fund, i.e., 8 years"
+    ],
+    "correctAnswer": "5 years"
+  },
+  {
+    "id": 23,
+    "question": "What is the administrator of a bankrupt person's financial affairs called?",
+    "options": [
+      "Official registrar",
+      "Official representative",
+      "Official receiver",
+      "Official referee"
+    ],
+    "correctAnswer": "Official receiver"
+  },
+  {
+    "id": 24,
+    "question": "Which regulatory body is responsible for the protection of members of work-based pension schemes?",
+    "options": [
+      "The FCA",
+      "HM Treasury",
+      "The Pensions Regulator",
+      "The Financial Ombudsman"
+    ],
+    "correctAnswer": "The Pensions Regulator"
+  },
+  {
+    "id": 25,
+    "question": "Which of the following is the first step in the financial planning process for a retail client?",
+    "options": [
+      "Assessing the client's attitude to risk",
+      "Considering asset allocation",
+      "Collecting soft facts about the client",
+      "Establishing the client's objectives"
+    ],
+    "correctAnswer": "Establishing the client's objectives"
+  },
+  {
+    "id": 26,
+    "question": "What is the maximum payout for a compensation claim against an investment firm declared in default in relation to protected investment business?",
+    "options": ["£50,000", "£85,000", "£1,000,000", "Unlimited"],
+    "correctAnswer": "£85,000"
+  },
+  {
+    "id": 27,
+    "question": "Emma and Matt are considering selling some investments. Matt bought 20,000 ABC shares for £40,000, now worth £60,000. What is the maximum number of ABC shares that Matt can sell in 2024/25 without facing a capital gains tax charge, given the annual CGT exemption is £3,000?",
+    "options": ["2,000 shares", "2,500 shares", "3,000 shares", "3,500 shares"],
+    "correctAnswer": "3,000 shares"
+  },
+  {
+    "id": 28,
+    "question": "If Emma sells her XYZ shares in 2024/25 and makes no other disposals, for how long can she carry forward the loss?",
+    "options": ["1 year", "7 years", "10 years", "Indefinitely"],
+    "correctAnswer": "Indefinitely"
+  },
+  {
+    "id": 29,
+    "question": "If Emma and Matt sell a painting (bought for £25,000, now worth £85,000) and Emma also sells her XYZ shares (bought for £18,000, now worth £10,000) in 2024/25, what would be the taxable gain for Emma, given the annual CGT exemption is £3,000?",
+    "options": ["£17,000", "£19,000", "£21,000", "£23,000"],
+    "correctAnswer": "£19,000"
+  },
+  {
+    "id": 30,
+    "question": "How much capital gains tax would Emma pay if both Matt and she sell the painting in 2024/25, given the annual CGT exemption is £3,000 and Emma is a higher-rate taxpayer (CGT rate 20%)?",
+    "options": ["£4,800", "£5,400", "£6,000", "£6,600"],
+    "correctAnswer": "£5,400"
+  },
+  {
+    "id": 31,
+    "question": "If Matt sells all of his 20,000 ABC shares in tax year 2024/25 (bought for £40,000, now worth £60,000), how much CGT would be payable on the disposal, assuming the annual CGT exemption is £3,000 and the gain is within the basic rate tax band (CGT rate 10%)?",
+    "options": ["£1,500", "£1,700", "£1,900", "£2,100"],
+    "correctAnswer": "£1,700"
+  },
+  {
+    "id": 32,
+    "question": "Which of the following is the least significant factor in fund selection?",
+    "options": [
+      "Charges",
+      "Types of investments in the fund",
+      "Independence of a fund's trustees",
+      "Whether the fund is an OEIC or unit trust"
+    ],
+    "correctAnswer": "Whether the fund is an OEIC or unit trust"
+  },
+  {
+    "id": 33,
+    "question": "Which one of the following is exempted from applying to the FCA for authorisation to carry on investment business in the UK?",
+    "options": [
+      "A trustee of a collective investment scheme",
+      "A company offering investment advice",
+      "An appointed representative of an authorised firm",
+      "A company offering custodian services"
+    ],
+    "correctAnswer": "An appointed representative of an authorised firm"
+  },
+  {
+    "id": 34,
+    "question": "For how long must an investment firm keep records of client categorisations in relation to MiFID business?",
+    "options": ["1 year", "2 years", "3 years", "5 years"],
+    "correctAnswer": "5 years"
+  },
+  {
+    "id": 35,
+    "question": "What is the takeover panel levy per trade in UK company securities (where the total consideration of the trade is greater than £10,000)?",
+    "options": ["25 pence", "50 pence", "100 pence", "150 pence"],
+    "correctAnswer": "150 pence"
+  },
+  {
+    "id": 36,
+    "question": "Leigh makes a gift of her second home in York to her daughter Rebecca and retains no financial interest in the home. How much longer does Leigh need to live before the gifted home is no longer counted as part of Leigh's estate and subject to an inheritance tax liability?",
+    "options": ["3 years", "5 years", "6 years", "7 years"],
+    "correctAnswer": "7 years"
+  },
+  {
+    "id": 37,
+    "question": "A higher rate taxpayer receives total dividend income of £6,000 in the 2024/25 tax year. How much additional tax will they have to pay on their dividend income (rounded up to the nearest £)?",
+    "options": ["£1,800", "£1,857", "£1,900", "£2,000"],
+    "correctAnswer": "£1,857"
+  },
+  {
+    "id": 38,
+    "question": "Under which one of the following circumstances is a UK investment firm normally required to undertake enhanced due diligence before undertaking investment business with a client?",
+    "options": [
+      "Where the client is new to the firm",
+      "Where the client is based outside the UK",
+      "Where the client is a politician in a country that is not the UK",
+      "Where the client has been referred to the firm by an overseas investment firm"
+    ],
+    "correctAnswer": "Where the client is a politician in a country that is not the UK"
+  },
+  {
+    "id": 39,
+    "question": "How often must a statement of funding principles drawn up in relation to an occupational pension scheme be reviewed?",
+    "options": [
+      "Every 6 months",
+      "Every 1 year",
+      "Every 3 years",
+      "Every 5 years"
+    ],
+    "correctAnswer": "Every 3 years"
+  },
+  {
+    "id": 40,
+    "question": "Dwayne buys shares in Orton Plc for £7,000 in a stocks and shares ISA. He sells them the same year for £20,000. The capital gains tax (CGT) allowance is £3,000 and CGT is levied at 10%. How much tax is payable?",
+    "options": ["£2,000", "£1,300", "£130", "£0"],
+    "correctAnswer": "£0"
+  },
+  {
+    "id": 41,
+    "question": "If you are executing a client's transactions, you must: (i) Always be alert to the possibility of money laundering (ii) Report any suspicions to your Money laundering Reporting Officer (iii) Inform the client if you believe the transaction to be suspicious",
+    "options": [
+      "(i) only",
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "correctAnswer": "(i) and (ii) only"
+  },
+  {
+    "id": 42,
+    "question": "Which one of the following services is NOT classed as an ancillary service under the Markets in Financial Instruments Directive (MiFID)?",
+    "options": [
+      "Services relating to underwriting",
+      "Advice to firms on mergers and acquisitions",
+      "Investment research relating to financial transactions",
+      "Execution of orders on behalf of clients"
+    ],
+    "correctAnswer": "Execution of orders on behalf of clients"
+  },
+  {
+    "id": 43,
+    "question": "An investor has the objective of building a large fund to pay for a holiday home in 10 years' time but is concerned about capital risk and therefore decides to invest most of their wealth in fixed interest deposits. Which of the following risks is this strategy likely to increase? (i) Inflation risk (ii) Shortfall risk (iii) Operational risk",
+    "options": [
+      "(i) only",
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "correctAnswer": "(i) and (ii) only"
+  },
+  {
+    "id": 44,
+    "question": "A limited company structure has been used to purchase a residential property in London for £3,000,000. How much Stamp Duty Land Tax is payable on this transaction (in pounds)?",
+    "options": ["£400,000", "£450,000", "£500,000", "£550,000"],
+    "correctAnswer": "£450,000"
+  },
+  {
+    "id": 45,
+    "question": "Hannah holds £95,000 in gilts that provide £1,750 gross income every six months. What would be the annual income tax saving if she held her entire gilt portfolio in an ISA, given she is a higher rate taxpayer?",
+    "options": [
+      "£700",
+      "£1,400",
+      "There would be no income tax saving as gilts are free of income tax",
+      "There would be no income tax saving as Hannah would still be unable to reclaim the tax credit"
+    ],
+    "correctAnswer": "£1,400"
+  },
+  {
+    "id": 46,
+    "question": "With reference to income tax liability only, which of the following investments would be considered least tax efficient for Hannah, a higher rate taxpayer?",
+    "options": [
+      "Investment grade bonds, held within an ISA",
+      "Non-investment grade bonds, held outside of an ISA",
+      "Non-dividend paying equities, held outside of an ISA",
+      "Dividend paying equities, held within an ISA"
+    ],
+    "correctAnswer": "Non-investment grade bonds, held outside of an ISA"
+  },
+  {
+    "id": 47,
+    "question": "What would be the capital gains liability if Hannah sold her gilts portfolio (purchased for £87,000, now worth £95,000) during the current tax year, given she has used all available CGT allowances?",
+    "options": [
+      "£1,440",
+      "£2,240",
+      "£3,200",
+      "There would be no capital gains liability"
+    ],
+    "correctAnswer": "There would be no capital gains liability"
+  },
+  {
+    "id": 48,
+    "question": "Under FCA regulations, which document is Hannah's financial adviser required to use to record any new information she provides?",
+    "options": [
+      "A client agreement",
+      "A fact find",
+      "A Key Facts document",
+      "There is no requirement to use a specific document"
+    ],
+    "correctAnswer": "There is no requirement to use a specific document"
+  },
+  {
+    "id": 49,
+    "question": "Based on the information provided, what is Hannah's adviser most likely to consider the first priority?",
+    "options": [
+      "Increasing her life insurance cover",
+      "Providing funds for her children's school fees",
+      "Reviewing her pension arrangements",
+      "Arranging long-term care funding for her father"
+    ],
+    "correctAnswer": "Reviewing her pension arrangements"
+  },
+  {
+    "id": 50,
+    "question": "Based on the information given, which factor is most likely to increase Hannah's tolerance for investment risk with regard to her primary financial objective?",
+    "options": [
+      "Her time horizon",
+      "Her monthly income position",
+      "Her tax status",
+      "Her family situation"
+    ],
+    "correctAnswer": "Her time horizon"
+  },
+  {
+    "id": 51,
+    "question": "Which of the following quantitative criteria would contribute to a firm being able to treat a client as an elective professional client?",
+    "options": [
+      "They have worked in the financial sector for seven months and have a security portfolio worth €2.5 million",
+      "They have a security portfolio worth €0.25 million and have carried out thirty significant transactions for each of the last ten quarters",
+      "They have total wealth exceeding €25 million",
+      "They have carried out twenty transactions over £1,000 for each of the last four quarters, and have worked in the financial sector for two years"
+    ],
+    "correctAnswer": "They have carried out twenty transactions over £1,000 for each of the last four quarters, and have worked in the financial sector for two years"
+  },
+  {
+    "id": 52,
+    "question": "What is the Debt Management Office's preferred method for issuing gilts?",
+    "options": ["Auction", "Tender", "Syndicated offering", "Tap"],
+    "correctAnswer": "Auction"
+  },
+  {
+    "id": 53,
+    "question": "Sebastian works for a private client wealth management firm as a dealer. He is asked to purchase shares across accounts, but the orders are only partially filled. According to the CFA Code of Ethics and Standards of Professional Conduct, he should:",
+    "options": [
+      "Give priority to those paying most commission",
+      "Allocate the shares pro rata according to the order size",
+      "Allocate the shares randomly",
+      "Allocate the shares to the best performing accounts first"
+    ],
+    "correctAnswer": "Allocate the shares pro rata according to the order size"
+  },
+  {
+    "id": 54,
+    "question": "A firm providing investment advice to retail clients can use dealing commission to purchase:",
+    "options": [
+      "Connectivity services",
+      "Provision of original research",
+      "Order and execution management systems",
+      "Nothing as this would be classed as an inducement"
+    ],
+    "correctAnswer": "Nothing as this would be classed as an inducement"
+  },
+  {
+    "id": 55,
+    "question": "Which legal document is required when one person wishes to give another person full power to make all decisions regarding their financial affairs?",
+    "options": [
+      "Discretionary authority",
+      "Letter of authority",
+      "Letter of probate",
+      "Power of attorney"
+    ],
+    "correctAnswer": "Power of attorney"
+  },
+  {
+    "id": 56,
+    "question": "One of the criteria for determining whether the Competition and Markets Authority investigates a merger is called the 'turnover test'. What is the minimum level of UK turnover necessary for the 'turnover test' to qualify a transaction for investigation (in £m)?",
+    "options": ["50 £m", "75 £m", "100 £m", "125 £m"],
+    "correctAnswer": "100 £m"
+  },
+  {
+    "id": 57,
+    "question": "A client requires money in two years' time for the purchase of a property. Which type of investment may be the most appropriate?",
+    "options": [
+      "Mid-cap equities",
+      "Commodity futures",
+      "Commercial property",
+      "Fixed interest deposit"
+    ],
+    "correctAnswer": "Fixed interest deposit"
+  },
+  {
+    "id": 58,
+    "question": "In order to prevent mis-selling of financial products, the Financial Conduct Authority will NOT do which of the following?",
+    "options": [
+      "Provide official approval for new products",
+      "Place a temporary ban on unsuitable products",
+      "Ban misleading financial promotions",
+      "Prosecute those firms or people making misleading statements about a financial product"
+    ],
+    "correctAnswer": "Provide official approval for new products"
+  },
+  {
+    "id": 59,
+    "question": "An investment firm is permitted to engage in the activity of dealing in securities as an agent. If the firm wishes to extend its activities to include safeguarding assets it must?",
+    "options": [
+      "Advise the FCA before going ahead with the new activity",
+      "Apply to the FCA for variation of permission",
+      "Re-apply to the FCA for a new Part 4A permission",
+      "Set up a separate subsidiary which must seek a Part 4A permission for this activity"
+    ],
+    "correctAnswer": "Apply to the FCA for variation of permission"
+  },
+  {
+    "id": 60,
+    "question": "Which one of the following statements about client categorisation is NOT correct?",
+    "options": [
+      "A firm is permitted to treat a retail client as a professional client",
+      "A firm is permitted to treat a professional client as an eligible counterparty",
+      "The only requirement for treating a retail client as a professional client is that the client passes a 'quantitative' test",
+      "A firm may treat a professional client as a retail client if the client requests this"
+    ],
+    "correctAnswer": "The only requirement for treating a retail client as a professional client is that the client passes a 'quantitative' test"
+  },
+  {
+    "id": 61,
+    "question": "Up to what age is an individual entitled to tax relief on contributions to a registered pension scheme?",
+    "options": ["60 years", "65 years", "70 years", "75 years"],
+    "correctAnswer": "75 years"
+  },
+  {
+    "id": 62,
+    "question": "A retail client has the right to cancel the purchase of a life policy in what period (in days) after the purchase?",
+    "options": ["15 days", "30 days", "45 days", "60 days"],
+    "correctAnswer": "30 days"
+  },
+  {
+    "id": 63,
+    "question": "Which of the following investment services will normally incur VAT at the standard rate? (i) Arranging the sale of a retail investment product (ii) Nominee services (iii) Investment advice",
+    "options": [
+      "(i) only",
+      "(ii) and (iii) only",
+      "(iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "correctAnswer": "(iii) only"
+  },
+  {
+    "id": 64,
+    "question": "Where a firm provides a recommendation to a retail client to purchase shares in an OEIC it must provide which one of the following documents to the client?",
+    "options": [
+      "A key investor information document",
+      "A key risks document",
+      "An appropriateness report",
+      "A client objectives report"
+    ],
+    "correctAnswer": "A key investor information document"
+  },
+  {
+    "id": 65,
+    "question": "Which one of the following is least likely to affect a client's attitude to risk?",
+    "options": [
+      "The timescale of the investment",
+      "Recent volatility in the stock market",
+      "Whether the client is married",
+      "The asset allocation of the client's existing investments"
+    ],
+    "correctAnswer": "Whether the client is married"
+  },
+  {
+    "id": 66,
+    "question": "A company authorised in Germany to carry out investment management wishes to establish a branch in the UK in 2024. The firm will be able to carry out investment management in the UK by:",
+    "options": [
+      "Applying to the FCA for Part 4A permission",
+      "Applying to the FCA for exemption from authorisation",
+      "Applying to the European Commission for an investment services passport",
+      "Passporting through the Markets in Financial Instruments Directive"
+    ],
+    "correctAnswer": "Applying to the FCA for Part 4A permission"
+  },
+  {
+    "id": 67,
+    "question": "Which of the following Acts of Parliament introduces the offence of failure to prevent tax evasion?",
+    "options": [
+      "The Criminal Justice Act, 1993",
+      "The UK Bribery Act, 2010",
+      "The Criminal Finances Act, 2017",
+      "The Economic Crime and Corporate Transparency Act, 2023"
+    ],
+    "correctAnswer": "The Criminal Finances Act, 2017"
+  },
+  {
+    "id": 68,
+    "question": "Under which of the following circumstances would a UK investment firm be least likely required to undertake enhanced due diligence before undertaking investment business?",
+    "options": [
+      "The client is a credit institution that is dual regulated by the FCA and PRA",
+      "Business is conducted on a non-face to face basis",
+      "In respect to correspondent banking relationships",
+      "The client is a politically exposed person"
+    ],
+    "correctAnswer": "The client is a credit institution that is dual regulated by the FCA and PRA"
+  },
+  {
+    "id": 69,
+    "question": "In the event of the death of an individual, who is normally responsible for the process of probate?",
+    "options": [
+      "The Official Receiver",
+      "The beneficiaries of the will",
+      "The executors of the will",
+      "The solicitor that holds the will"
+    ],
+    "correctAnswer": "The executors of the will"
+  },
+  {
+    "id": 70,
+    "question": "To which body must a dual-regulated firm apply to vary its Part 4A permission?",
+    "options": [
+      "The Bank of England",
+      "The Financial Conduct Authority",
+      "HM Treasury",
+      "The Prudential Regulation Authority"
+    ],
+    "correctAnswer": "The Prudential Regulation Authority"
+  },
+  {
+    "id": 71,
+    "question": "Which of the following assets is likely to be most at risk of underperforming inflation over the long term?",
+    "options": ["Gilts", "UK equities", "Overseas equities", "Cash deposits"],
+    "correctAnswer": "Cash deposits"
+  },
+  {
+    "id": 72,
+    "question": "What is the amount of Stamp Duty Reserve Tax (SDRT) payable on a purchase of shares equal to £20,000?",
+    "options": ["£0", "£100", "£500", "£1,000"],
+    "correctAnswer": "£100"
+  },
+  {
+    "id": 73,
+    "question": "Under which of the following circumstances may the Financial Ombudsman dismiss a complaint referred to it? (i) It is just over one year since the event which lead to the complaint took place (ii) The complainant has not suffered financial loss, material inconvenience or material distress (iii) It considers the firm has already made a reasonable offer of redress",
+    "options": [
+      "(i) only",
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "correctAnswer": "(ii) and (iii) only"
+  },
+  {
+    "id": 74,
+    "question": "Harry, an investment manager, suggests a charity sends a letter to his clients for donations and provides their contact details. According to the CFA Code of Ethics and Standards of Professional Conduct, which is true of Harry's actions?",
+    "options": [
+      "Harry can disclose client contact details, but not information on their investment portfolios",
+      "Harry should not have disclosed the identity and contact details as it does not benefit his employer",
+      "Harry should not have disclosed the identity and contact details of his clients without their prior approval",
+      "Harry can disclose the identity and contact details as it is for a worthy cause"
+    ],
+    "correctAnswer": "Harry should not have disclosed the identity and contact details of his clients without their prior approval"
+  },
+  {
+    "id": 75,
+    "question": "What is the settlement period for gilts made through CREST?",
+    "options": ["T+1", "T+2", "T+3", "T+5"],
+    "correctAnswer": "T+1"
+  },
+  {
+    "id": 76,
+    "question": "What type of proxy is appointed by a member who wishes that proxy to vote as they see fit at a company meeting as their representative?",
+    "options": [
+      "Agent proxy",
+      "General proxy",
+      "Special proxy",
+      "Two-way proxy"
+    ],
+    "correctAnswer": "General proxy"
+  },
+  {
+    "id": 77,
+    "question": "Which of the following are CFA Institute Standards of Professional Conduct?",
+    "options": [
+      "Professionalism; Integrity of Capital Markets; Duty of Independence",
+      "Professionalism; Regulatory and Legal Obligations; Duty to Employer",
+      "Professionalism; Duties to Clients; Responsibilities as a CFA Institute Member or CFA Candidate",
+      "Conflicts of Interest; Duty of Care; Responsibilities as a CFA Institute Member or CFA Candidate"
+    ],
+    "correctAnswer": "Professionalism; Duties to Clients; Responsibilities as a CFA Institute Member or CFA Candidate"
+  },
+  {
+    "id": 78,
+    "question": "Why is capital allocation thought to be more efficient when markets have high liquidity and price transparency?",
+    "options": [
+      "Because transaction prices tend to change more quickly",
+      "Because transaction prices tend to change more smoothly",
+      "Because the cost of capital is more stable",
+      "Because the cost of capital is lower"
+    ],
+    "correctAnswer": "Because the cost of capital is lower"
+  },
+  {
+    "id": 79,
+    "question": "An employee of an FCA regulated firm becomes suspicious of the actions of her client who has recently been involved in the rapid turnover of bearer securities with an unknown counterparty. To whom should she report her suspicions?",
+    "options": [
+      "The police",
+      "The FCA",
+      "The firm's money laundering reporting officer",
+      "The client"
+    ],
+    "correctAnswer": "The firm's money laundering reporting officer"
+  },
+  {
+    "id": 80,
+    "question": "How many years does an investment in enterprise investment scheme (EIS) shares have to be held before a disposal is NOT subject to capital gains tax?",
+    "options": ["3 years", "4 years", "5 years", "6 years"],
+    "correctAnswer": "3 years"
+  },
+  {
+    "id": 81,
+    "question": "Persons discharging managerial responsibilities must notify the listed company of a personal transaction in that company's shares within:",
+    "options": [
+      "One business day of the transaction",
+      "Three business days of the transaction",
+      "Four business days of the transaction",
+      "Five business days of the transaction"
+    ],
+    "correctAnswer": "Three business days of the transaction"
+  },
+  {
+    "id": 82,
+    "question": "A portfolio manager acting in a non-discretionary role recommends a retail client to purchase a new product which the client subsequently buys. For which one of the following products is the portfolio manager NOT required to provide a suitability report to the client?",
+    "options": [
+      "Units in an authorised unit trust",
+      "A life policy",
+      "A personal pension scheme",
+      "A UK government bond"
+    ],
+    "correctAnswer": "A UK government bond"
+  },
+  {
+    "id": 83,
+    "question": "A firm provides a client agreement to a retail client in relation to investment management services that excludes pension related advice. After one year, the client no longer undertakes business with the firm. How many more years must the firm keep a record of the client agreement after ceasing business with the client?",
+    "options": ["0 years", "1 year", "2 years", "3 years"],
+    "correctAnswer": "0 years"
+  },
+  {
+    "id": 84,
+    "question": "Annual reports of UK listed companies are required to declare holdings of shares by owners other than directors when they exceed a specified percentage of any class of voting capital. What is the percentage?",
+    "options": ["1%", "2%", "3%", "6%"],
+    "correctAnswer": "3%"
+  },
+  {
+    "id": 85,
+    "question": "In relation to the Client Money rules a designated bank account has which of the following characteristics: (i) It can only hold the money of one client (ii) When the bank fails the money is not to be pooled with other clients accounts (iii) Where the investment firm fails the money is pooled with other clients accounts",
+    "options": [
+      "(i) only",
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "correctAnswer": "(ii) and (iii) only"
+  }
+]

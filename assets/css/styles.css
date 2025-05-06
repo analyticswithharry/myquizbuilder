@@ -1,157 +1,203 @@
 /* General Styles */
 body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    color: #333;
-    overflow-y: auto; /* Allow scrolling if content overflows */
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+  overflow-y: auto; /* Allow scrolling if content overflows */
 }
 
 /* Quiz Container */
 .quiz-container {
-    background: rgba(255, 255, 255, 0.95);
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    width: 90%; /* Increased width */
-    max-width: 800px; /* Increased max-width */
-    animation: fadeIn 0.8s ease-in-out;
-    border: 3px solid #6a11cb;
-    margin: 20px; /* Add margin for better spacing */
-    overflow-y: auto; /* Make container scrollable if content overflows */
-    max-height: 90vh; /* Limit height to 90% of viewport height */
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  width: 90%; /* Increased width */
+  max-width: 800px; /* Increased max-width */
+  animation: fadeIn 0.8s ease-in-out;
+  border: 3px solid #6a11cb;
+  margin: 20px; /* Add margin for better spacing */
+  overflow-y: auto; /* Make container scrollable if content overflows */
+  max-height: 90vh; /* Limit height to 90% of viewport height */
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Header */
 header {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 header h1 {
-    font-size: 32px;
-    font-weight: 700;
-    color: #333;
-    margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
 }
 
 header p {
-    font-size: 16px;
-    color: #666;
-    margin: 10px 0 0;
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0 0;
+}
+
+/* Chapter Selection */
+#chapter-selection {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#chapter-selection label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-right: 10px;
+}
+
+#chapter-select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  cursor: pointer;
+  width: 200px;
+}
+
+#start-quiz-btn {
+  margin-top: 15px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#start-quiz-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+#start-quiz-btn:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Questions */
 .question {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .question p {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 
 label {
-    display: block;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 8px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    cursor: pointer;
-    transition: background 0.3s ease, border-color 0.3s ease;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background 0.3s ease, border-color 0.3s ease;
 }
 
 label:hover {
-    background: #f1f1f1;
-    border-color: #ccc;
+  background: #f1f1f1;
+  border-color: #ccc;
 }
 
 input[type="radio"] {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 /* Submit Button */
 #submit-btn {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #submit-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 #submit-btn i {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 /* Correct Answer */
 .correct {
-    background-color: #4CAF50 !important; /* Green */
-    border-color: #4CAF50 !important;
-    color: #fff;
+  background-color: #4caf50 !important; /* Green */
+  border-color: #4caf50 !important;
+  color: #fff;
 }
 
 /* Wrong Answer */
 .wrong {
-    background-color: #f44336 !important; /* Red */
-    border-color: #f44336 !important;
-    color: #fff;
+  background-color: #f44336 !important; /* Red */
+  border-color: #f44336 !important;
+  color: #fff;
 }
 
 /* Countdown Timer */
 #countdown {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
-    color: #2575fc; /* Blue color */
-    font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #2575fc; /* Blue color */
+  font-weight: 600;
 }
 
 /* Skip Button */
 #skip-btn {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-top: 20px;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 20px;
 }
 
 #skip-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }

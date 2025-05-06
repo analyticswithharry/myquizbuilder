@@ -1,0 +1,932 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary function of the financial services industry in the global economy?",
+    "options": [
+      "Regulating trade",
+      "Allocating capital efficiently",
+      "Setting monetary policy",
+      "Managing public debt"
+    ],
+    "correctAnswer": "Allocating capital efficiently"
+  },
+  {
+    "id": 2,
+    "question": "Which institution plays a key role in the UK equity market?",
+    "options": [
+      "Bank of England",
+      "London Stock Exchange",
+      "HM Treasury",
+      "Financial Reporting Council"
+    ],
+    "correctAnswer": "London Stock Exchange"
+  },
+  {
+    "id": 3,
+    "question": "What is a key feature of an ordinary share?",
+    "options": [
+      "Fixed interest payments",
+      "Ownership in a company",
+      "Guaranteed principal repayment",
+      "Priority in bankruptcy"
+    ],
+    "correctAnswer": "Ownership in a company"
+  },
+  {
+    "id": 4,
+    "question": "Why is liquidity important in securities markets?",
+    "options": [
+      "It ensures high returns",
+      "It facilitates efficient capital allocation",
+      "It eliminates market risk",
+      "It reduces tax liabilities"
+    ],
+    "correctAnswer": "It facilitates efficient capital allocation"
+  },
+  {
+    "id": 5,
+    "question": "Which market is characterized by trading directly between parties without an exchange?",
+    "options": [
+      "Exchange-traded market",
+      "Over-the-counter (OTC) market",
+      "Primary market",
+      "Secondary market"
+    ],
+    "correctAnswer": "Over-the-counter (OTC) market"
+  },
+  {
+    "id": 6,
+    "question": "What is a characteristic of a quote-driven market?",
+    "options": [
+      "Trades are matched based on orders",
+      "Market makers provide bid and ask prices",
+      "All trades are anonymous",
+      "No intermediaries are involved"
+    ],
+    "correctAnswer": "Market makers provide bid and ask prices"
+  },
+  {
+    "id": 7,
+    "question": "What is the role of the Financial Conduct Authority (FCA) as the UK listing authority?",
+    "options": [
+      "Setting interest rates",
+      "Overseeing compliance with listing rules",
+      "Managing clearing houses",
+      "Issuing government bonds"
+    ],
+    "correctAnswer": "Overseeing compliance with listing rules"
+  },
+  {
+    "id": 8,
+    "question": "What is a main condition for listing on the Official List?",
+    "options": [
+      "No minimum market capitalization",
+      "Compliance with FCA listing rules",
+      "Guaranteed dividends",
+      "Government ownership"
+    ],
+    "correctAnswer": "Compliance with FCA listing rules"
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of corporate governance regulation?",
+    "options": [
+      "Maximizing shareholder profits",
+      "Ensuring ethical management and accountability",
+      "Reducing transaction costs",
+      "Eliminating market volatility"
+    ],
+    "correctAnswer": "Ensuring ethical management and accountability"
+  },
+  {
+    "id": 10,
+    "question": "What is a key disclosure requirement for listed companies under the disclosure and transparency rules?",
+    "options": [
+      "Daily stock price updates",
+      "Directors' interests and major shareholdings",
+      "Employee salaries",
+      "Future dividend forecasts"
+    ],
+    "correctAnswer": "Directors' interests and major shareholdings"
+  },
+  {
+    "id": 11,
+    "question": "What is the purpose of a prospectus for a company listing on the London Stock Exchange?",
+    "options": [
+      "To advertise products",
+      "To provide detailed information to investors",
+      "To set share prices",
+      "To comply with tax laws"
+    ],
+    "correctAnswer": "To provide detailed information to investors"
+  },
+  {
+    "id": 12,
+    "question": "What is a benefit of algorithmic trading in the UK equity market?",
+    "options": [
+      "Increased market volatility",
+      "Improved execution efficiency",
+      "Higher transaction costs",
+      "Reduced liquidity"
+    ],
+    "correctAnswer": "Improved execution efficiency"
+  },
+  {
+    "id": 13,
+    "question": "What is the principal-agent problem in capital markets?",
+    "options": [
+      "Conflict between regulators and firms",
+      "Separation of ownership and control",
+      "Lack of market liquidity",
+      "High transaction costs"
+    ],
+    "correctAnswer": "Separation of ownership and control"
+  },
+  {
+    "id": 14,
+    "question": "Which is an example of an agency cost?",
+    "options": [
+      "Market price fluctuations",
+      "Expropriation by management",
+      "Dividend payments",
+      "Tax exemptions"
+    ],
+    "correctAnswer": "Expropriation by management"
+  },
+  {
+    "id": 15,
+    "question": "What is a key feature of the Eurobond market?",
+    "options": [
+      "Traded only in the UK",
+      "Issued in a currency other than the issuer’s",
+      "Regulated by the FCA",
+      "Exclusively exchange-traded"
+    ],
+    "correctAnswer": "Issued in a currency other than the issuer’s"
+  },
+
+  {
+    "id": 16,
+    "question": "Why is ethics critical in the investment industry?",
+    "options": [
+      "To maximize profits",
+      "To build trust and protect clients",
+      "To avoid taxation",
+      "To simplify regulations"
+    ],
+    "correctAnswer": "To build trust and protect clients"
+  },
+  {
+    "id": 17,
+    "question": "Which is a positive behavioral indicator of ethical conduct?",
+    "options": [
+      "Prioritizing personal gain",
+      "Transparency with clients",
+      "Ignoring conflicts of interest",
+      "Bypassing compliance rules"
+    ],
+    "correctAnswer": "Transparency with clients"
+  },
+  {
+    "id": 18,
+    "question": "What is an ethical obligation to clients under the CFA Code of Ethics?",
+    "options": [
+      "Guaranteeing returns",
+      "Acting with loyalty and care",
+      "Maximizing firm revenue",
+      "Avoiding communication"
+    ],
+    "correctAnswer": "Acting with loyalty and care"
+  },
+  {
+    "id": 19,
+    "question": "What is a potential outcome of unethical behavior in the investment industry?",
+    "options": [
+      "Enhanced firm reputation",
+      "Loss of client trust",
+      "Increased market liquidity",
+      "Lower regulatory scrutiny"
+    ],
+    "correctAnswer": "Loss of client trust"
+  },
+  {
+    "id": 20,
+    "question": "What is a limitation of compliance-driven behavior without ethical consideration?",
+    "options": [
+      "It ensures client satisfaction",
+      "It may harm industry reputation",
+      "It reduces operational costs",
+      "It eliminates conflicts of interest"
+    ],
+    "correctAnswer": "It may harm industry reputation"
+  },
+  {
+    "id": 21,
+    "question": "Which element is part of the CFA Code of Ethics?",
+    "options": [
+      "Maximizing personal wealth",
+      "Acting with integrity and competence",
+      "Ignoring client needs",
+      "Avoiding regulatory oversight"
+    ],
+    "correctAnswer": "Acting with integrity and competence"
+  },
+  {
+    "id": 22,
+    "question": "What is the basis of the CFA Standards of Professional Conduct?",
+    "options": [
+      "Profit maximization",
+      "Professional principles and values",
+      "Market speculation",
+      "Regulatory exemptions"
+    ],
+    "correctAnswer": "Professional principles and values"
+  },
+  {
+    "id": 23,
+    "question": "In an ethical dilemma, what should an investment professional prioritize under the CFA Code?",
+    "options": [
+      "Firm profits",
+      "Client interests",
+      "Personal gain",
+      "Market trends"
+    ],
+    "correctAnswer": "Client interests"
+  },
+  {
+    "id": 24,
+    "question": "What is a consequence of breaching the CFA Standards of Professional Conduct?",
+    "options": [
+      "Increased client trust",
+      "Disciplinary action by CFA Institute",
+      "Higher firm valuation",
+      "Tax benefits"
+    ],
+    "correctAnswer": "Disciplinary action by CFA Institute"
+  },
+  {
+    "id": 25,
+    "question": "Which action aligns with the CFA Code of Ethics in managing conflicts of interest?",
+    "options": [
+      "Ignoring conflicts",
+      "Disclosing conflicts to clients",
+      "Prioritizing firm interests",
+      "Hiding client information"
+    ],
+    "correctAnswer": "Disclosing conflicts to clients"
+  },
+
+  {
+    "id": 26,
+    "question": "What is the primary role of the Financial Conduct Authority (FCA)?",
+    "options": [
+      "Setting monetary policy",
+      "Promoting fair and ethical outcomes",
+      "Issuing currency",
+      "Managing public debt"
+    ],
+    "correctAnswer": "Promoting fair and ethical outcomes"
+  },
+  {
+    "id": 27,
+    "question": "Which EU regulation governs financial instruments markets?",
+    "options": ["UCITS", "MiFID II/MiFIR", "EMIR", "AIFMD"],
+    "correctAnswer": "MiFID II/MiFIR"
+  },
+  {
+    "id": 28,
+    "question": "What is the purpose of the European Securities and Markets Authority (ESMA)?",
+    "options": [
+      "Setting tax rates",
+      "Enhancing investor protection across the EU",
+      "Issuing Eurobonds",
+      "Regulating UK banks"
+    ],
+    "correctAnswer": "Enhancing investor protection across the EU"
+  },
+  {
+    "id": 29,
+    "question": "What is the scope of the Alternative Investment Fund Managers Directive (AIFMD)?",
+    "options": [
+      "Regulating retail banking",
+      "Overseeing alternative investment funds",
+      "Setting interest rates",
+      "Managing pension funds"
+    ],
+    "correctAnswer": "Overseeing alternative investment funds"
+  },
+  {
+    "id": 30,
+    "question": "What does the Financial Services and Markets Act (FSMA) 2000 regulate?",
+    "options": [
+      "Tax policies",
+      "Financial services and markets",
+      "International trade",
+      "Corporate governance"
+    ],
+    "correctAnswer": "Financial services and markets"
+  },
+  {
+    "id": 31,
+    "question": "What is the role of the Prudential Regulation Authority (PRA)?",
+    "options": [
+      "Consumer protection",
+      "Promoting financial stability",
+      "Setting fiscal policy",
+      "Regulating stock exchanges"
+    ],
+    "correctAnswer": "Promoting financial stability"
+  },
+  {
+    "id": 32,
+    "question": "Which body regulates the UK’s payment systems?",
+    "options": [
+      "FCA",
+      "Payments System Regulator (PSR)",
+      "Bank of England",
+      "HM Treasury"
+    ],
+    "correctAnswer": "Payments System Regulator (PSR)"
+  },
+  {
+    "id": 33,
+    "question": "What is a key provision of the City Code on Takeovers and Mergers?",
+    "options": [
+      "Setting tax rates",
+      "Regulating bid timetables",
+      "Issuing bonds",
+      "Managing pensions"
+    ],
+    "correctAnswer": "Regulating bid timetables"
+  },
+  {
+    "id": 34,
+    "question": "What is the purpose of the FCA’s Principles for Businesses?",
+    "options": [
+      "Maximizing profits",
+      "Ensuring ethical conduct",
+      "Reducing taxes",
+      "Eliminating competition"
+    ],
+    "correctAnswer": "Ensuring ethical conduct"
+  },
+  {
+    "id": 35,
+    "question": "What is a consequence of breaching FCA’s Principles for Businesses?",
+    "options": [
+      "Tax exemptions",
+      "Fines or sanctions",
+      "Increased market share",
+      "Higher liquidity"
+    ],
+    "correctAnswer": "Fines or sanctions"
+  },
+  {
+    "id": 36,
+    "question": "What is the purpose of the Senior Managers Regime?",
+    "options": [
+      "Reducing taxes",
+      "Enhancing individual accountability",
+      "Increasing market volatility",
+      "Eliminating regulations"
+    ],
+    "correctAnswer": "Enhancing individual accountability"
+  },
+  {
+    "id": 37,
+    "question": "What is a key requirement for client categorization under FCA rules?",
+    "options": [
+      "Maximizing client profits",
+      "Classifying clients as retail, professional, or eligible counterparty",
+      "Ignoring client needs",
+      "Reducing transparency"
+    ],
+    "correctAnswer": "Classifying clients as retail, professional, or eligible counterparty"
+  },
+  {
+    "id": 38,
+    "question": "What does the FCA’s ‘fair, clear, and not misleading’ rule apply to?",
+    "options": [
+      "Tax filings",
+      "Financial promotions",
+      "Corporate governance",
+      "Monetary policy"
+    ],
+    "correctAnswer": "Financial promotions"
+  },
+  {
+    "id": 39,
+    "question": "What is the purpose of assessing suitability for clients?",
+    "options": [
+      "Ensuring high returns",
+      "Matching investments to client needs",
+      "Reducing taxes",
+      "Increasing firm revenue"
+    ],
+    "correctAnswer": "Matching investments to client needs"
+  },
+  {
+    "id": 40,
+    "question": "What is a key feature of the Financial Ombudsman Service?",
+    "options": [
+      "Setting interest rates",
+      "Resolving consumer complaints",
+      "Issuing securities",
+      "Regulating taxes"
+    ],
+    "correctAnswer": "Resolving consumer complaints"
+  },
+  {
+    "id": 41,
+    "question": "What is the role of the Financial Services Compensation Scheme (FSCS)?",
+    "options": [
+      "Providing loans",
+      "Compensating eligible clients for losses",
+      "Setting tax rates",
+      "Regulating markets"
+    ],
+    "correctAnswer": "Compensating eligible clients for losses"
+  },
+  {
+    "id": 42,
+    "question": "Which stage is part of the money laundering process?",
+    "options": [
+      "Tax evasion",
+      "Placement",
+      "Market manipulation",
+      "Dividend payment"
+    ],
+    "correctAnswer": "Placement"
+  },
+  {
+    "id": 43,
+    "question": "What is inside information under the Criminal Justice Act 1993?",
+    "options": [
+      "Public market data",
+      "Non-public information affecting security prices",
+      "Tax records",
+      "General economic trends"
+    ],
+    "correctAnswer": "Non-public information affecting security prices"
+  },
+  {
+    "id": 44,
+    "question": "What is a penalty for insider dealing under the Criminal Justice Act 1993?",
+    "options": [
+      "Tax exemptions",
+      "Imprisonment or fines",
+      "Increased market access",
+      "Regulatory approval"
+    ],
+    "correctAnswer": "Imprisonment or fines"
+  },
+  {
+    "id": 45,
+    "question": "Which behavior is defined as market abuse under the Market Abuse Regulation?",
+    "options": [
+      "Transparent trading",
+      "Manipulating market prices",
+      "Paying dividends",
+      "Filing tax returns"
+    ],
+    "correctAnswer": "Manipulating market prices"
+  },
+  {
+    "id": 46,
+    "question": "What is a key feature of the Bribery Act 2010?",
+    "options": [
+      "Regulating taxes",
+      "Criminalizing bribery",
+      "Setting interest rates",
+      "Issuing bonds"
+    ],
+    "correctAnswer": "Criminalizing bribery"
+  },
+  {
+    "id": 47,
+    "question": "What is the purpose of the Joint Money Laundering Steering Group (JMLSG)?",
+    "options": [
+      "Setting monetary policy",
+      "Providing anti-money laundering guidance",
+      "Issuing securities",
+      "Regulating pensions"
+    ],
+    "correctAnswer": "Providing anti-money laundering guidance"
+  },
+  {
+    "id": 48,
+    "question": "What is a requirement for investment exchanges under FCA rules?",
+    "options": [
+      "No regulation",
+      "FCA recognition",
+      "Tax exemptions",
+      "Public ownership"
+    ],
+    "correctAnswer": "FCA recognition"
+  },
+  {
+    "id": 49,
+    "question": "What is the purpose of client money rules under CASS 7?",
+    "options": [
+      "Maximizing profits",
+      "Protecting client funds",
+      "Reducing taxes",
+      "Increasing market volatility"
+    ],
+    "correctAnswer": "Protecting client funds"
+  },
+  {
+    "id": 50,
+    "question": "What is the FCA’s approach to supervision?",
+    "options": ["Profit-driven", "Risk-based", "Tax-focused", "Market-neutral"],
+    "correctAnswer": "Risk-based"
+  },
+
+  {
+    "id": 51,
+    "question": "What is a power of attorney?",
+    "options": [
+      "A trust agreement",
+      "Authorization to act on someone’s behalf",
+      "A property transfer",
+      "A tax exemption"
+    ],
+    "correctAnswer": "Authorization to act on someone’s behalf"
+  },
+  {
+    "id": 52,
+    "question": "What is a key feature of a contract under UK law?",
+    "options": [
+      "No mutual agreement",
+      "Offer, acceptance, and consideration",
+      "Tax exemptions",
+      "Public disclosure"
+    ],
+    "correctAnswer": "Offer, acceptance, and consideration"
+  },
+  {
+    "id": 53,
+    "question": "What is joint tenancy in property ownership?",
+    "options": [
+      "Ownership by one individual",
+      "Equal shares with right of survivorship",
+      "Leased property",
+      "Corporate ownership"
+    ],
+    "correctAnswer": "Equal shares with right of survivorship"
+  },
+  {
+    "id": 54,
+    "question": "What happens in intestacy?",
+    "options": [
+      "Assets are distributed per a will",
+      "Assets are distributed per statutory rules",
+      "Assets are seized by the government",
+      "Assets are donated"
+    ],
+    "correctAnswer": "Assets are distributed per statutory rules"
+  },
+  {
+    "id": 55,
+    "question": "What is a discretionary trust?",
+    "options": [
+      "Fixed beneficiary payments",
+      "Trustee decides distributions",
+      "Publicly traded fund",
+      "Tax-exempt entity"
+    ],
+    "correctAnswer": "Trustee decides distributions"
+  },
+  {
+    "id": 56,
+    "question": "What is bankruptcy in legal terms?",
+    "options": [
+      "A tax filing process",
+      "Inability to pay debts",
+      "A corporate merger",
+      "A property sale"
+    ],
+    "correctAnswer": "Inability to pay debts"
+  },
+  {
+    "id": 57,
+    "question": "What is the role of an agent in a contract?",
+    "options": [
+      "To act on behalf of a principal",
+      "To set tax rates",
+      "To issue securities",
+      "To regulate markets"
+    ],
+    "correctAnswer": "To act on behalf of a principal"
+  },
+  {
+    "id": 58,
+    "question": "What is a bare trust?",
+    "options": [
+      "Complex investment fund",
+      "Trust with direct beneficiary ownership",
+      "Government-regulated entity",
+      "Tax-exempt structure"
+    ],
+    "correctAnswer": "Trust with direct beneficiary ownership"
+  },
+  {
+    "id": 59,
+    "question": "What is a key feature of a will?",
+    "options": [
+      "Automatic tax exemptions",
+      "Specifies asset distribution after death",
+      "Regulates corporate governance",
+      "Sets interest rates"
+    ],
+    "correctAnswer": "Specifies asset distribution after death"
+  },
+  {
+    "id": 60,
+    "question": "What is tenancy in common in property ownership?",
+    "options": [
+      "Equal shares with no survivorship",
+      "Sole ownership",
+      "Leased property",
+      "Corporate ownership"
+    ],
+    "correctAnswer": "Equal shares with no survivorship"
+  },
+
+  {
+    "id": 61,
+    "question": "What is a key characteristic of retail clients?",
+    "options": [
+      "High financial expertise",
+      "Limited investment knowledge",
+      "No regulatory protection",
+      "Guaranteed high returns"
+    ],
+    "correctAnswer": "Limited investment knowledge"
+  },
+  {
+    "id": 62,
+    "question": "Why is the fact-find process important in client advice?",
+    "options": [
+      "To sell products",
+      "To assess client circumstances",
+      "To reduce taxes",
+      "To predict market trends"
+    ],
+    "correctAnswer": "To assess client circumstances"
+  },
+  {
+    "id": 63,
+    "question": "What is a primary method to determine a client’s risk profile?",
+    "options": [
+      "Guessing preferences",
+      "Using risk assessment questionnaires",
+      "Ignoring client input",
+      "Following market trends"
+    ],
+    "correctAnswer": "Using risk assessment questionnaires"
+  },
+  {
+    "id": 64,
+    "question": "How does diversification mitigate investment risk?",
+    "options": [
+      "Guarantees high returns",
+      "Reduces impact of poor performance",
+      "Eliminates all risks",
+      "Increases single-asset exposure"
+    ],
+    "correctAnswer": "Reduces impact of poor performance"
+  },
+  {
+    "id": 65,
+    "question": "Why is asset allocation prioritized before product selection?",
+    "options": [
+      "It simplifies tax filing",
+      "It aligns with client goals and risk",
+      "It maximizes firm profits",
+      "It reduces market volatility"
+    ],
+    "correctAnswer": "It aligns with client goals and risk"
+  },
+  {
+    "id": 66,
+    "question": "What is a key role of a fund custodian in fund selection?",
+    "options": [
+      "Setting tax rates",
+      "Safeguarding assets",
+      "Predicting market trends",
+      "Issuing securities"
+    ],
+    "correctAnswer": "Safeguarding assets"
+  },
+  {
+    "id": 67,
+    "question": "What is a feature of a defined benefit (DB) pension fund?",
+    "options": [
+      "Variable benefits",
+      "Fixed benefits based on salary",
+      "High investment risk for members",
+      "No employer contributions"
+    ],
+    "correctAnswer": "Fixed benefits based on salary"
+  },
+  {
+    "id": 68,
+    "question": "What is a key objective of pension funds?",
+    "options": [
+      "Short-term profits",
+      "Long-term capital growth",
+      "High liquidity",
+      "Tax evasion"
+    ],
+    "correctAnswer": "Long-term capital growth"
+  },
+  {
+    "id": 69,
+    "question": "What factor affects a pension fund’s asset allocation?",
+    "options": [
+      "Market volatility",
+      "Liability structure",
+      "Tax exemptions",
+      "Corporate governance"
+    ],
+    "correctAnswer": "Liability structure"
+  },
+  {
+    "id": 70,
+    "question": "What is a key skill for advising clients?",
+    "options": [
+      "Ignoring client needs",
+      "Clear communication",
+      "Maximizing firm profits",
+      "Avoiding regulations"
+    ],
+    "correctAnswer": "Clear communication"
+  },
+  {
+    "id": 71,
+    "question": "What is the purpose of regular client reviews?",
+    "options": [
+      "To increase fees",
+      "To ensure alignment with goals",
+      "To reduce taxes",
+      "To predict market trends"
+    ],
+    "correctAnswer": "To ensure alignment with goals"
+  },
+  {
+    "id": 72,
+    "question": "What is a risk of defined contribution (DC) pension schemes for beneficiaries?",
+    "options": [
+      "Fixed benefits",
+      "Investment performance risk",
+      "No contributions",
+      "Guaranteed returns"
+    ],
+    "correctAnswer": "Investment performance risk"
+  },
+  {
+    "id": 73,
+    "question": "What is a benchmark in client advice?",
+    "options": [
+      "A tax rate",
+      "A performance measure",
+      "A regulatory rule",
+      "A market prediction"
+    ],
+    "correctAnswer": "A performance measure"
+  },
+  {
+    "id": 74,
+    "question": "What is a key need of retail clients?",
+    "options": [
+      "High-risk investments",
+      "Protection of capital",
+      "Complex derivatives",
+      "No regulation"
+    ],
+    "correctAnswer": "Protection of capital"
+  },
+  {
+    "id": 75,
+    "question": "What is the effect of taxation on pension fund stock selection?",
+    "options": [
+      "No impact",
+      "Influences asset allocation",
+      "Eliminates risk",
+      "Reduces liquidity"
+    ],
+    "correctAnswer": "Influences asset allocation"
+  },
+
+  {
+    "id": 76,
+    "question": "What is a principle of UK income tax?",
+    "options": [
+      "Flat rate for all income",
+      "Progressive rates based on income",
+      "No allowances",
+      "Exempts investment income"
+    ],
+    "correctAnswer": "Progressive rates based on income"
+  },
+  {
+    "id": 77,
+    "question": "What is the purpose of capital gains tax (CGT) annual exemptions?",
+    "options": [
+      "Increase tax revenue",
+      "Encourage long-term investments",
+      "Penalize trading",
+      "Reduce income tax"
+    ],
+    "correctAnswer": "Encourage long-term investments"
+  },
+  {
+    "id": 78,
+    "question": "What is the impact of domicile on inheritance tax (IHT)?",
+    "options": [
+      "No impact",
+      "Determines liability",
+      "Eliminates tax",
+      "Reduces income tax"
+    ],
+    "correctAnswer": "Determines liability"
+  },
+  {
+    "id": 79,
+    "question": "What is a feature of self-assessment in UK tax compliance?",
+    "options": [
+      "Automatic tax collection",
+      "Individuals report income and calculate tax",
+      "No penalties",
+      "Exempts investment income"
+    ],
+    "correctAnswer": "Individuals report income and calculate tax"
+  },
+  {
+    "id": 80,
+    "question": "What is stamp duty land tax (SDLT) applied to?",
+    "options": [
+      "Stock transactions",
+      "Property transactions",
+      "Income earnings",
+      "Pension contributions"
+    ],
+    "correctAnswer": "Property transactions"
+  },
+  {
+    "id": 81,
+    "question": "How are ISAs taxed in the UK?",
+    "options": [
+      "Fully taxable",
+      "Tax-free growth and income",
+      "Subject to CGT",
+      "High income tax rates"
+    ],
+    "correctAnswer": "Tax-free growth and income"
+  },
+  {
+    "id": 82,
+    "question": "What is a key principle of income tax planning?",
+    "options": [
+      "Maximizing tax liability",
+      "Utilizing allowances and reliefs",
+      "Ignoring investments",
+      "Avoiding diversification"
+    ],
+    "correctAnswer": "Utilizing allowances and reliefs"
+  },
+  {
+    "id": 83,
+    "question": "What is the taxation of equities in the UK?",
+    "options": [
+      "Exempt from all taxes",
+      "Subject to CGT on gains",
+      "No dividends taxed",
+      "Fully tax-free"
+    ],
+    "correctAnswer": "Subject to CGT on gains"
+  },
+  {
+    "id": 84,
+    "question": "What is a limitation of lifetime gifts in mitigating IHT?",
+    "options": [
+      "No tax benefits",
+      "Seven-year survival rule",
+      "Immediate exemption",
+      "Reduces income tax"
+    ],
+    "correctAnswer": "Seven-year survival rule"
+  },
+  {
+    "id": 85,
+    "question": "What is a tax advantage of venture capital trusts (VCTs)?",
+    "options": [
+      "High CGT rates",
+      "Income tax relief on investment",
+      "No dividends",
+      "Fully taxable"
+    ],
+    "correctAnswer": "Income tax relief on investment"
+  }
+]

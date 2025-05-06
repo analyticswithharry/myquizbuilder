@@ -1,114 +1,97 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const quizForm = document.getElementById('quiz-form');
-    const skipButton = document.getElementById('skip-btn');
-    let countdownInterval;
-    let questions = [];
+document.addEventListener("DOMContentLoaded", () => {
+  const chapterSelect = document.getElementById("chapter-select");
+  const startQuizBtn = document.getElementById("start-quiz-btn");
+  const quizForm = document.getElementById("quiz-form");
+  const skipBtn = document.getElementById("skip-btn");
 
-    // Fetch questions from JSON
-    fetch('assets/data/questions.json')
-        .then(response => {
-            if (!response.ok) throw new Error('Failed to load questions');
-            return response.json();
-        })
-        .then(data => {
-            questions = data;
-            generateQuizForm(questions);
-        })
-        .catch(error => {
-            console.error('Error loading questions:', error);
-            quizForm.innerHTML = `<p class="error">Failed to load quiz questions. Please try again later.</p>`;
-        });
+  // List of chapters (update this when adding new chapters)
+  const chapters = [
+    { name: "Chapter 1", file: "chapter_one.json" },
+    { name: "Exam sample quiz v19", file: "imc_sample_quiz_v19.json" },
+    { name: "Exam sample quiz v18", file: "imc_sample_quiz_v18.json" },
+    { name: "Mock Exam 1 (v20_dec_2022)", file: "v20_dec_2022.json" },
+    { name: "Mock Exam 1 (v22)", file: "v_22_unit1_exam1.json" },
+    { name: "Mock Exam 2 (v22)", file: "v_22_unit1_exam2.json" },
+    // Add more chapters here as needed, e.g., { name: "Chapter 11", file: "chapter_eleven.json" }
+  ];
 
-    // Generate quiz form
-    function generateQuizForm(questions) {
-        questions.forEach((question, index) => {
-            const questionDiv = document.createElement('div');
-            questionDiv.classList.add('question');
+  // Populate chapter dropdown
+  chapters.forEach((chapter) => {
+    const option = document.createElement("option");
+    option.value = chapter.file;
+    option.textContent = chapter.name;
+    chapterSelect.appendChild(option);
+  });
 
-            const questionText = document.createElement('p');
-            questionText.textContent = `${index + 1}. ${question.question}`;
-            questionDiv.appendChild(questionText);
+  // Enable/disable Start Quiz button based on selection
+  chapterSelect.addEventListener("change", () => {
+    startQuizBtn.disabled = !chapterSelect.value;
+  });
 
-            question.options.forEach((option, optionIndex) => {
-                const label = document.createElement('label');
-                const input = document.createElement('input');
-                input.type = 'radio';
-                input.name = `q${index + 1}`;
-                input.value = String.fromCharCode(97 + optionIndex); // a, b, c, d
-                label.appendChild(input);
-                label.appendChild(document.createTextNode(` (${String.fromCharCode(97 + optionIndex)}) ${option}`));
-                questionDiv.appendChild(label);
-            });
-
-            quizForm.appendChild(questionDiv);
-        });
-
-        // Submit button
-        const submitButton = document.createElement('button');
-        submitButton.type = 'submit';
-        submitButton.id = 'submit-btn';
-        submitButton.textContent = 'Submit';
-        quizForm.appendChild(submitButton);
+  // Start quiz when button is clicked
+  startQuizBtn.addEventListener("click", () => {
+    const selectedChapter = chapterSelect.value;
+    if (selectedChapter) {
+      loadQuiz(selectedChapter);
+      quizForm.style.display = "block";
+      chapterSelect.parentElement.style.display = "none"; // Hide chapter selection
+      skipBtn.style.display = "block";
     }
+  });
 
-    // Evaluate quiz on submit
-    quizForm.addEventListener('submit', function (event) {
-        event.preventDefault();
-        evaluateQuiz(questions);
-    });
-
-    function evaluateQuiz(questions) {
-        let score = 0;
-        const totalQuestions = questions.length;
-
-        questions.forEach((question, index) => {
-            const selected = document.querySelector(`input[name="q${index + 1}"]:checked`);
-            const correctAnswer = question.correctAnswer.toLowerCase();
-
-            const correctInput = document.querySelector(`input[name="q${index + 1}"][value="${correctAnswer}"]`);
-            if (correctInput) {
-                correctInput.parentElement.classList.add('correct');
-            }
-
-            if (selected && selected.value !== correctAnswer) {
-                selected.parentElement.classList.add('wrong');
-            }
-
-            if (selected && selected.value === correctAnswer) {
-                score++;
-            }
+  // Load quiz questions from selected chapter
+  function loadQuiz(chapterFile) {
+    fetch(`assets/data/imc_dataset/${chapterFile}`)
+      .then((response) => response.json())
+      .then((questions) => {
+        quizForm.innerHTML = ""; // Clear previous questions
+        questions.forEach((q, index) => {
+          const questionDiv = document.createElement("div");
+          questionDiv.classList.add("question");
+          questionDiv.innerHTML = `
+                        <p>${index + 1}. ${q.question}</p>
+                        ${q.options
+                          .map(
+                            (option, i) => `
+                            <label>
+                                <input type="radio" name="q${q.id}" value="${option}">
+                                ${option}
+                            </label>
+                        `
+                          )
+                          .join("")}
+                    `;
+          quizForm.appendChild(questionDiv);
         });
 
-        const percentageCorrect = ((score / totalQuestions) * 100).toFixed(2);
-        const percentageWrong = (100 - percentageCorrect).toFixed(2);
+        // Add submit button
+        const submitBtn = document.createElement("button");
+        submitBtn.id = "submit-btn";
+        submitBtn.innerHTML = '<i class="fas fa-check"></i> Submit Quiz';
+        submitBtn.type = "button";
+        quizForm.appendChild(submitBtn);
 
-        localStorage.setItem('score', score);
-        localStorage.setItem('totalQuestions', totalQuestions);
-        localStorage.setItem('percentageCorrect', percentageCorrect);
-        localStorage.setItem('percentageWrong', percentageWrong);
+        // Handle quiz submission
+        submitBtn.addEventListener("click", () => {
+          const answers = {};
+          questions.forEach((q) => {
+            const selected = document.querySelector(
+              `input[name="q${q.id}"]:checked`
+            );
+            answers[q.id] = selected ? selected.value : null;
+          });
 
-        skipButton.style.display = 'block';
+          // Store answers and redirect to results
+          localStorage.setItem("quizAnswers", JSON.stringify(answers));
+          localStorage.setItem("quizQuestions", JSON.stringify(questions));
+          window.location.href = "results.html";
+        });
+      })
+      .catch((error) => console.error("Error loading questions:", error));
+  }
 
-        let countdown = 59;
-        const countdownElement = document.createElement('div');
-        countdownElement.id = 'countdown';
-        countdownElement.classList.add('countdown');
-        countdownElement.textContent = `Redirecting to results in ${countdown} seconds...`;
-        quizForm.appendChild(countdownElement);
-
-        countdownInterval = setInterval(() => {
-            countdown--;
-            countdownElement.textContent = `Redirecting to results in ${countdown} seconds...`;
-            if (countdown <= 0) {
-                clearInterval(countdownInterval);
-                window.location.href = 'results.html';
-            }
-        }, 1000);
-    }
-
-    // Skip button redirect
-    skipButton.addEventListener('click', () => {
-        clearInterval(countdownInterval);
-        window.location.href = 'results.html';
-    });
+  // Handle skip button
+  skipBtn.addEventListener("click", () => {
+    window.location.href = "results.html";
+  });
 });
