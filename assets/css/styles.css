@@ -57,6 +57,35 @@ header p {
   margin: 10px 0 0;
 }
 
+/* Settings Section */
+#settings-section {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+#settings-section h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#settings-section label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#settings-section input[type="checkbox"] {
+  margin-right: 8px;
+}
+
 /* Chapter Selection */
 #chapter-selection {
   text-align: center;
@@ -106,6 +135,7 @@ header p {
 /* Questions */
 .question {
   margin-bottom: 20px;
+  position: relative; /* For positioning insights */
 }
 
 .question p {
@@ -126,12 +156,47 @@ label {
 }
 
 label:hover {
-  background: #f1f1f1;
+  background: #e6e6e6;
   border-color: #ccc;
 }
 
 input[type="radio"] {
   margin-right: 10px;
+}
+
+/* Insights */
+.insight {
+  display: none;
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 10;
+  width: 200px;
+  left: 100%;
+  top: 0;
+  margin-left: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+label:hover .insight {
+  display: block; /* Show insight on hover if enabled */
+}
+
+/* Correct Answer */
+.correct {
+  background-color: #4caf50 !important; /* Green */
+  border-color: #4caf50 !important;
+  color: #fff;
+}
+
+/* Wrong Answer */
+.wrong {
+  background-color: #f44336 !important; /* Red */
+  border-color: #f44336 !important;
+  color: #fff;
 }
 
 /* Submit Button */
@@ -156,20 +221,6 @@ input[type="radio"] {
 
 #submit-btn i {
   margin-right: 8px;
-}
-
-/* Correct Answer */
-.correct {
-  background-color: #4caf50 !important; /* Green */
-  border-color: #4caf50 !important;
-  color: #fff;
-}
-
-/* Wrong Answer */
-.wrong {
-  background-color: #f44336 !important; /* Red */
-  border-color: #f44336 !important;
-  color: #fff;
 }
 
 /* Countdown Timer */
