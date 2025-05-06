@@ -17,6 +17,18 @@
         <h1>IMC CFA MCQ</h1>
         <p>Select a chapter to start the quiz.</p>
       </header>
+      <!-- Settings Section -->
+      <div id="settings-section">
+        <h3>Quiz Settings</h3>
+        <label>
+          <input type="checkbox" id="interactive-feedback" checked />
+          Interactive Feedback (Correct: Green, Wrong: Red)
+        </label>
+        <label>
+          <input type="checkbox" id="show-insights" checked />
+          Show Insights on Hover
+        </label>
+      </div>
       <div id="chapter-selection">
         <label for="chapter-select">Choose a Chapter:</label>
         <select id="chapter-select">
@@ -31,7 +43,7 @@
       <!-- Skip Button -->
       <button id="skip-btn" style="display: none">Skip and View Results</button>
     </div>
-      <!-- Include your script.js -->
+    <!-- Include your script.js -->
     <script src="assets/js/scripts.js"></script>
   </body>
 </html>
