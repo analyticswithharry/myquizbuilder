@@ -1,0 +1,39 @@
+<--Original-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC CFA MCQ - Chapter Selection</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <header>
+        <h1>IMC CFA MCQ</h1>
+        <p>Select a chapter to start the quiz.</p>
+      </header>
+      <div id="chapter-selection">
+        <label for="chapter-select">Choose a Chapter:</label>
+        <select id="chapter-select">
+          <option value="">-- Select a Chapter --</option>
+          <!-- Options will be dynamically inserted by script.js -->
+        </select>
+        <button id="start-quiz-btn" disabled>Start Quiz</button>
+      </div>
+      <form id="quiz-form" style="display: none">
+        <!-- Questions will be dynamically inserted here by script.js -->
+      </form>
+      <!-- Skip Button -->
+      <button id="skip-btn" style="display: none">Skip and View Results</button>
+    </div>
+      <!-- Include your script.js -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
