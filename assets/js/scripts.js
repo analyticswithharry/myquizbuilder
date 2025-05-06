@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const startQuizBtn = document.getElementById("start-quiz-btn");
   const quizForm = document.getElementById("quiz-form");
   const skipBtn = document.getElementById("skip-btn");
+  const interactiveFeedbackCheckbox = document.getElementById(
+    "interactive-feedback"
+  );
+  const showInsightsCheckbox = document.getElementById("show-insights");
 
   // List of chapters (update this when adding new chapters)
   const chapters = [
@@ -35,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       loadQuiz(selectedChapter);
       quizForm.style.display = "block";
       chapterSelect.parentElement.style.display = "none"; // Hide chapter selection
+      document.getElementById("settings-section").style.display = "none"; // Hide settings
       skipBtn.style.display = "block";
     }
   });
@@ -56,12 +61,53 @@ document.addEventListener("DOMContentLoaded", () => {
                             <label>
                                 <input type="radio" name="q${q.id}" value="${option}">
                                 ${option}
+                                <span class="insight">Insight: This is a sample insight for question ${q.id}.</span>
                             </label>
                         `
                           )
                           .join("")}
                     `;
           quizForm.appendChild(questionDiv);
+
+          // Add event listeners for interactive feedback
+          const radios = questionDiv.querySelectorAll(`input[name="q${q.id}"]`);
+          radios.forEach((radio) => {
+            radio.addEventListener("change", () => {
+              if (interactiveFeedbackCheckbox.checked) {
+                const labels = questionDiv.querySelectorAll("label");
+                labels.forEach((label) => {
+                  const radioInput = label.querySelector("input");
+                  if (radioInput.checked) {
+                    if (radioInput.value === q.correctAnswer) {
+                      label.classList.add("correct");
+                    } else {
+                      label.classList.add("wrong");
+                    }
+                  }
+                  if (radioInput.value === q.correctAnswer) {
+                    label.classList.add("correct");
+                  }
+                });
+                // Disable further changes after selection
+                radios.forEach((r) => (r.disabled = true));
+              }
+            });
+          });
+
+          // Toggle insights visibility based on checkbox
+          const labels = questionDiv.querySelectorAll("label");
+          labels.forEach((label) => {
+            const insight = label.querySelector(".insight");
+            if (!showInsightsCheckbox.checked) {
+              insight.style.display = "none";
+              label.addEventListener("mouseenter", () => {
+                insight.style.display = "none";
+              });
+              label.addEventListener("mouseleave", () => {
+                insight.style.display = "none";
+              });
+            }
+          });
         });
 
         // Add submit button
