@@ -134,8 +134,8 @@ export default function CustomDesigner({
       fabricRef.current.setActiveObject(text)
       fabricRef.current.renderAll()
       setDesignText("")
-    } catch {
-      // fabric not available
+    } catch (err) {
+      console.warn("Fabric.js: unable to add text to canvas", err)
     }
   }
 
@@ -165,8 +165,8 @@ export default function CustomDesigner({
         imgElement.src = evt.target.result as string
       }
       reader.readAsDataURL(file)
-    } catch {
-      // fabric not available
+    } catch (err) {
+      console.warn("Fabric.js: unable to process image upload", err)
     }
   }
 
@@ -221,10 +221,10 @@ export default function CustomDesigner({
           </div>
         </div>
 
-        {/* Colour picker */}
+        {/* Color picker */}
         <div className="flex flex-col gap-1">
           <label htmlFor="design-color" className="text-xs font-medium">
-            Text Colour
+            Text Color
           </label>
           <input
             id="design-color"
