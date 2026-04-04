@@ -1,0 +1,39 @@
+{
+  "name": "Medusa Next.js Storefront",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3000, 8000, 9000],
+  "portsAttributes": {
+    "3000": { "label": "Next.js Frontend", "onAutoForward": "openBrowser" },
+    "8000": { "label": "Storefront Alt", "onAutoForward": "silent" },
+    "9000": { "label": "Medusa Backend", "onAutoForward": "silent" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bradlc.vscode-tailwindcss",
+        "dbaeumer.vscode-eslint",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "esbenp.prettier-vscode",
+        "Prisma.prisma"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+        }
+      }
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22"
+    }
+  },
+  "remoteEnv": {
+    "NEXT_PUBLIC_MEDUSA_BACKEND_URL": "http://localhost:9000",
+    "NEXT_PUBLIC_BASE_URL": "http://localhost:8000"
+  }
+}
